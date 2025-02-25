@@ -10,4 +10,11 @@ Datasets for Option data.
 (2) Yahoo Finance 
 (3) Polygo.io 
 
+<<<<<<< HEAD
 https://arxiv.org/html/2009.10862v5
+=======
+Methodology: 
+
+1. Get Option data from Sources and preprocessing and cleaning them to ensure they include all the neccessary info like moneyness, time-to-maturity, implied volatility, and option prices.
+2. 
+>>>>>>> 2c4c97a (g)
