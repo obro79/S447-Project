@@ -12,22 +12,6 @@ Datasets for Option data.
 
 https://arxiv.org/html/2009.10862v5
 
-Methodology: 
-
-(1) Load data from chosen dataset and clean.
-
-(2) Fit a Dirichlet Process model to group data.
-
-(3) Assign a Gaussian Process prior to each cluster, i.e.
-$$f_k (x) \sim GP({\mu}_k (x), K_k (x,x'))$$.
-
-(4) Train the individual GP and mean parameters using likelihood updates from the data in each cluster.
-
-(5) For a new input $$x^*$$, compute the probability that this input belongs to each of the clusters (a likelihood update), and take a weighted sum of the kernel functions. Also take a weighted sum of the mean functions.
-
-(6) For a fit, just draw from the GP distribution fitted with the weighted average. For a point estimate, take the $$\mu$$ function evaluated at the $$x^*$$.
-
-
 ## Background/Motivation
 
 Financial data is subject to frequent and unpredictable regime shifts. Whether it is public sentiment, rate hikes, or new administrations. For this reason, financial data is highly heterogenous. Traditional Gaussian Process regression models do not capture this, since a constant covariance kernel function is assumed. We don't capture the varying structure in different parts of the data. To address this, in this project, we want to introduce a Dirichlet clustering process to break the data apart and adapt mean and kernel parameters for each individual grouping. With each cluster having its own GP prior, and after taking a weighted average for the parameters of the overarching GP distribution we use to draw fits from, we expect to be able to outperform traditional regression methods in option pricing.
@@ -89,6 +73,21 @@ Handles Regime Shifts: Automatically detects market changes and adapts according
 By leveraging the nonparametric and flexible nature of DP-GP, we overcome the limitations of traditional models, providing a more accurate and robust framework for volatility estimation and option pricing.
 
 A more accurate volatility prediction using DP-GP can unlock multiple profit opportunities in financial markets. Since implied volatility is a core input for option pricing and risk management, better volatility estimates can provide a trading edge
+
+## **Methodology** 
+
+(1) Load data from chosen dataset and clean.
+
+(2) Fit a Dirichlet Process model to group data.
+
+(3) Assign a Gaussian Process prior to each cluster, i.e.
+$$f_k (x) \sim GP({\mu}_k (x), K_k (x,x'))$$.
+
+(4) Train the individual GP and mean parameters using likelihood updates from the data in each cluster.
+
+(5) For a new input $$x^*$$, compute the probability that this input belongs to each of the clusters (a likelihood update), and take a weighted sum of the kernel functions. Also take a weighted sum of the mean functions.
+
+(6) For a fit, just draw from the GP distribution fitted with the weighted average. For a point estimate, take the $$\mu$$ function evaluated at the $$x^*$$.
 
 
 
