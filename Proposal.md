@@ -28,9 +28,8 @@ The **Black-Scholes formula** is used to price **European call and put options**
 
 ## **Formula**
 For a **European call option**:
-\[
-C = S_0 N(d_1) - Ke^{-rT} N(d_2)
-\]
+
+$ C = S_0 N(d_1) - Ke^{-rT} N(d_2) $
 
 For a **European put option**:
 \[
@@ -92,3 +91,5 @@ $$f_k (x) \sim GP({\mu}_k (x), K_k (x,x'))$$.
 
 
 options: https://www.investopedia.com/ask/answers/062415/how-does-implied-volatility-impact-pricing-options.asp
+
+dirichlet processes: https://www.stat.ubc.ca/~bouchard/courses/stat547-sp2011/notes-part2.pdf
