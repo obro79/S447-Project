@@ -1,14 +1,46 @@
 
 
+## Team: Owen Fisher & Jack Wu
+## Theme: Bayesian Non-parametric Models
+## Github Link: https://github.com/obro79/S447-Project
+## Datasets:
+
+(1) CBOE: https://www.cboe.com/market_data_services/us/options/  (API so need to set that up and downlad the data)
+(2) Yahoo Finance: https://finance.yahoo.com/quote/AAPL/options/ (Can view the dataframe through the link, but will use Yfinance API to get download the data)
+(3) Polygo.io: https://polygon.io/dashboard (API so need to set that up and downlad the data)
+
+
+## **Methodology** 
+
+(1) Load data from chosen dataset and clean.
+
+(2) Fit a Dirichlet Process model to group data. (Non-parametric Model)
+
+(3) Assign a Gaussian Process prior to each cluster, i.e. (Non-parametrci Model)
+$$f_k (x) \sim GP({\mu}_k (x), K_k (x,x'))$$.
+
+(4) Train the individual GP and mean parameters using likelihood updates from the data in each cluster.
+
+(5) For a new input $$x^*$$, compute the probability that this input belongs to each of the clusters (a likelihood update), and take a weighted sum of the kernel functions. Also take a weighted sum of the mean functions.
+
+(6) For a fit, just draw from the GP distribution fitted with the weighted average. For a point estimate, take the $$\mu$$ function evaluated at the $$x^*$$.
+
+## Teamwork
+
+To ensure that both team members contribute roughly equally to the project, we have devised the following:
+
+- **Task Division**: We will split the project into milestones with specific tasks, deliverables, and deadlines for each team member.
+- **Regular Updates**: We will meet weekly to review progress and adjust tasks to ensure balanced contributions.
+
+
+
+
+
+
 ## A Dirichlet Process-Based Adaptive Kernel for Nonparametric Gaussian Process Regression For Volatility Surface Fitting
 
 Can a Dirichlet Process be used to generate adaptive, data-driven kernels for a Gaussian Process model, improving accuracy in option pricing?
 
-Datasets for Option data. 
-
-(1) CBOE
-(2) Yahoo Finance 
-(3) Polygo.io 
 
 https://arxiv.org/html/2009.10862v5
 
@@ -73,23 +105,6 @@ By leveraging the nonparametric and flexible nature of DP-GP, we overcome the li
 
 A more accurate volatility prediction using DP-GP can unlock multiple profit opportunities in financial markets. Since implied volatility is a core input for option pricing and risk management, better volatility estimates can provide a trading edge
 
-## **Methodology** 
-
-(1) Load data from chosen dataset and clean.
-
-(2) Fit a Dirichlet Process model to group data.
-
-(3) Assign a Gaussian Process prior to each cluster, i.e.
-$$f_k (x) \sim GP({\mu}_k (x), K_k (x,x'))$$.
-
-(4) Train the individual GP and mean parameters using likelihood updates from the data in each cluster.
-
-(5) For a new input $$x^*$$, compute the probability that this input belongs to each of the clusters (a likelihood update), and take a weighted sum of the kernel functions. Also take a weighted sum of the mean functions.
-
-(6) For a fit, just draw from the GP distribution fitted with the weighted average. For a point estimate, take the $$\mu$$ function evaluated at the $$x^*$$.
-
-
 
 options: https://www.investopedia.com/ask/answers/062415/how-does-implied-volatility-impact-pricing-options.asp
-
 dirichlet processes: https://www.stat.ubc.ca/~bouchard/courses/stat547-sp2011/notes-part2.pdf
