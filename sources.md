@@ -1,0 +1,25 @@
+
+Gaussian Processes for implied volatility estimation
+https://download.ssrn.com/24/04/26/ssrn_id4803161_code6684003.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLWVhc3QtMSJIMEYCIQC90FbKZi9Gjb%2FdS4M7wjaUoi6PqiRtN7bDTfs39TP3kwIhAOt%2FnNnTfY%2FaDXkPkG9RH%2BShI3qLez8JyDI0L34c7JlCKsYFCK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzA4NDc1MzAxMjU3IgyE2VybqWBqIXUjhDcqmgWVjWCuOKvZDkfm7TIaQ22CMqSGLNcBOB%2B3%2FjOb3oG1a4IvqZcdSGdtXqyvKKI54PkWbj%2BpLbi%2FNYtR5vIX8kpuMDTi3SoCdjqrCoVG1Fzs%2FA%2BsLeXoZLKcqLLDAR9fMHY1pSPtOBTnJiMexWYeSlissm31w2TRIMoJn1yLijTaYHJAIAntl%2B%2F7t%2FRRdQij0c15g6fQ%2FLPoeyNP7X1iw4GIvkXIe37xtYfGnb38qyGMjdw8yiNkAfxCKgGbxo0R%2F2xgpPkNKoqn0m83cmCN2%2Fij2Z0CFX%2F%2BITlwa2ndOXIHBhmSoet4rxt%2BNjkgZWI28zao%2F9BtY0T3ly7vs6torhKMTOYxNIPZLQT6hYdT7MN4i0JtBUPaV7mL6OM6Ko%2BUiZObDkwsNsmpXwzvlVEc49vJIfVVJSmmajfngy6DyYx%2FUmh0eGrsObc0fA0GAywTE0WfJuScXSxvDFipMum8AddKsbBalcCBirTSjMClpscS3FV2wupXE0k7sXb4WkHpvRRVXVSXWwYC4IoZkZUwiXD2lPQ2zC8cp6LB0PIbyWT0nr6XeL7kUEPwn%2B%2FAFORKeBngbU9Mg7uQ22F3cJXAf1mxogbvsfb1yBt8GF2vGg4FAWP5C5DFeByoE7GdQsjCmWOnIuCG8oC3lX1kJNBlcRc%2F%2FYhCY0%2Ba2P75jnVKFDh52CqtnF2jCROPc6OF%2FahByuVRJXlCRZmSvlMUWp6fTwc2BwFwp3CJSiCsJ%2BWscCtGWPRfSvXPQVkQg1aKIRaMHP9g4QXlNViHhrKjRrheSr4%2FH8MXldx9zmqM97DETfFpRfwd%2BSfIxbHNCH4V4b5f5Su%2F3a%2B2TeWSFzL6Zk6rZyHQKE26SdX6AYW0wPm2qIA86VY0gC63M1gbxw0wtIDhvwY6sAHfOPN2fO8r9NJRHgSQzd3Lsr7mjBTgQDMOYzpEKu01WHi7WzBJJJHwNn%2FatYQzAvF9p3GJLOROwqYBlihvhYDjBIA25F8yuSLjyL%2B%2BqmuP%2FOl%2FSW0%2FT8H2bgK8QsPdDgRPdoNTtunDWFBOOraKOZI8rG%2FyYkRHhGjbSZjSQZPT8O%2B0BYlqVwdy5iwchioR3nCg3fEA7NfiZgi0L7VjTV8SjPUUOh9U3BJY%2BEgN73%2BJ7A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250410T224256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUPUUPRWEQ5YD2KOT%2F20250410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f7f38823671a8fd97f7d8d5de4984956c114755400311d0f7f01247779d65ada&abstractId=4803161
+
+non-parametric inference for volatility modeling
+https://www.stochastics.gr/meetings/alpha/talks/delatola.pdf
+
+nonparametric panel markov-switching garch models
+https://www.tandfonline.com/doi/epdf/10.1080/07350015.2023.2166049?needAccess=true
+
+Bayesian nonparametrics for financial volatility modeling: 
+https://d-nb.info/1154486125/34
+
+
+A probabilistic approach to nonparametric local volatility: 
+https://arxiv.org/pdf/1901.06021
+
+A Bayesian take on option pricing with Gaussian processes
+
+https://www.robots.ox.ac.uk/~mt/pdfFiles/GPLV.pdf
+
+
+
+Risk-free interest rate: 
+https://fred.stlouisfed.org/series/DTB3

@@ -33,10 +33,6 @@ To ensure that both team members contribute roughly equally to the project, we h
 - **Regular Updates**: We will meet weekly to review progress and adjust tasks to ensure balanced contributions.
 
 
-
-
-
-
 ## A Dirichlet Process-Based Adaptive Kernel for Nonparametric Gaussian Process Regression For Volatility Surface Fitting
 
 Can a Dirichlet Process be used to generate adaptive, data-driven kernels for a Gaussian Process model, improving accuracy in option pricing?
