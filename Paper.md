@@ -6,7 +6,6 @@ Being able to accurately model the volatility surface for stock options is of gr
 
 Due to the ever changing dynamic nature of the financial markets, effective asset forecasting is challenging. The black scholes equation, often nicknamed the trillion dollar equation provided a framework to price stock options. However one of the main limitations of this model is the subjective nature of the volatility input. If the if we were able to enhance the volatility input the accuracy of the black scholes model would be significantly enhanced. There has been lots of work on this aspect recently, but each has limitations ... This is where using a non-parametric gaussian process presents a unique advantage. 
 
-
 # 3 Literature Review
 
 
