@@ -23,3 +23,9 @@ https://www.robots.ox.ac.uk/~mt/pdfFiles/GPLV.pdf
 
 Risk-free interest rate: 
 https://fred.stlouisfed.org/series/DTB3
+
+
+https://arxiv.org/pdf/2112.03718
+
+
+https://github.com/boschresearch/PAC_GP/tree/master/pac_gp/gp
